@@ -9,7 +9,7 @@
 ## Learning Objective
 
 * Learn about **Jasmine** - a behavior-driven development framework for testing JavaScript code
-* Use [Jasmine)(https://jasmine.github.io/) to write a number of tests against a pre-existing application
+* Use [Jasmine](https://jasmine.github.io/) to write a number of tests against a pre-existing application
 * Test the underlying business logic of the application
 * Test the event handling and DOM manipulation
 
@@ -27,3 +27,5 @@
 * When complete - all of your tests should pass.
 
 ## Result
+
+![Screenshot](https://github.com/888Red/Jasmine-FRT/blob/master/Capture.JPG)
