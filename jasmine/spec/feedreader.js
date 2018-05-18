@@ -54,6 +54,8 @@ $(function() {
 
     /* TODO: Write a new test suite named "The menu" */
     describe('The menu', function() {
+        const BODY = $('body'),
+              MENU_ICON = $('.menu-icon-link');
 
         /* TODO: Write a test that ensures the menu element is
          * hidden by default. You'll have to analyze the HTML and
@@ -62,7 +64,7 @@ $(function() {
          */
 
          it('menu element is hidden by default', function() {
-           expect($('body').hasClass('menu-hidden')).toEqual(true);
+           expect(BODY.hasClass('menu-hidden')).toEqual(true);
          });
 
 
@@ -71,6 +73,13 @@ $(function() {
           * should have two expectations: does the menu display when
           * clicked and does it hide when clicked again.
           */
+
+           it('menu icon displays and hides on click event', function() {
+             MENU_ICON.click();
+             expect(BODY.hasClass('menu-hidden')).toBe(false);
+             MENU_ICON.click();
+             expect(BODY.hasClass('menu-hidden')).toBe(true);
+           });
 
 });
 
