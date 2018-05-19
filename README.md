@@ -1,31 +1,28 @@
 # Feed Reader Testing
 
-## Project Overview
-
-* Students are given a web-based application that reads RSS feeds
-* Required project assets can be cloned or downloaded [here](https://github.com/udacity/frontend-nanodegree-feedreader)
-* Read more about the [Project Rubric](https://review.udacity.com/#!/rubrics/18/view)
+This is a project for Front-End Web Developer Nanodegree Course in Udacity.
+It is about using [Jasmine](https://jasmine.github.io/) to test a web-based application that reads RSS feeds.
 
 ## Learning Objective
 
-* Learn about **Jasmine** - a behavior-driven development framework for testing JavaScript code
-* Use [Jasmine](https://jasmine.github.io/) to write a number of tests against a pre-existing application
-* Test the underlying business logic of the application
-* Test the event handling and DOM manipulation
+Learn about **Jasmine** - a behavior-driven development framework for testing JavaScript code
+![sample code]https://github.com/888Red/Jasmine-FRT/blob/master/j-code.JPG)
 
-## Required Suites and Tests
+## Getting Started
 
-* Write a test that loops through each feed in the `allFeeds` object and ensures it has a **URL** defined and that the URL is not empty.
-* Write a test that loops through each feed in the `allFeeds` object and ensures it has a **name** defined and that the name is not empty.
-* Write a new test suite named `"The menu"`.
-* Write a test that ensures the **menu element** is hidden by default.
-* Write a test that ensures the **menu changes visibility** when the menu icon is clicked.
-* Write a test suite named `"Initial Entries"`.
-* Write a test that ensures when the `loadFeed` function is called and completes its work, there is at least a single `.entry` element within the `.feed` container.
-* Write a test suite named `"New Feed Selection"`.
-* Write a test that ensures when a new feed is loaded by the `loadFeed` function that the content actually changes.
-* When complete - all of your tests should pass.
+* Read about the [Project Rubric](https://review.udacity.com/#!/rubrics/18/view)
+* Clone or download the project assets [here](https://github.com/udacity/frontend-nanodegree-feedreader)
+* Run the app in any browser and scroll down to the bottom to see the Jasmine HTML Reporter
+* The required suites and tests can be found in the spec directory
 
 ## Result
 
 ![Screenshot](https://github.com/888Red/Jasmine-FRT/blob/master/Capture.JPG)
+
+## Dependencies
+
+* Google fonts
+* Google API
+* Jasmine
+* jQuery
+* Handlebars
