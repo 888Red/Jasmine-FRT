@@ -6,7 +6,8 @@ It is about using [Jasmine](https://jasmine.github.io/) to test a web-based appl
 ## Learning Objective
 
 * Learn about **Jasmine** - a behavior-driven development framework for testing JavaScript code
-* Sample Code: 
+* Sample Code:
+
 ![sample code](https://github.com/888Red/Jasmine-FRT/blob/master/j-code.JPG)
 
 ## Getting Started
